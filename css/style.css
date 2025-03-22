@@ -61,6 +61,7 @@
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
    font-family: MonaSans-title, sans-serif;
+   font-feature-settings: "ss01" off;
 }
 
 h1, .h1 { 
@@ -98,10 +99,12 @@ h4, .h4 {
 p {
    line-height: 1.5;
    letter-spacing: .4px;
+   font-feature-settings: "ss01" on;
 }
 
 p strong, strong {
    font-family: MonaSans-bodyBold, sans-serif;
+   font-feature-settings: "ss01" on;
 }
 
 a {
@@ -109,6 +112,7 @@ a {
    letter-spacing: .4px;
    text-decoration: underline;
    color: var(--color-text-primary);
+   font-feature-settings: "ss01" on;
 }
 
 a:hover {
