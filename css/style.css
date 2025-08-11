@@ -163,6 +163,7 @@ body {
    line-height: 26px;
    color: var(--color-text-primary);
    background: var(--color-background);
+   font-feature-settings: 'dlig' on, 'salt' on, 'rvrn' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss06' on, 'ss07' on, 'ss08' on;
 }
 
 main {
